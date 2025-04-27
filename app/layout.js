@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <AppContextProvider>
         <html lang="en" className="dark">
-          <body className={`${inter.classname} antialiased`}>{children}</body>
+        <body className={`${inter.variable} antialiased`}>{children}</body>
         </html>
       </AppContextProvider>
     </ClerkProvider>
